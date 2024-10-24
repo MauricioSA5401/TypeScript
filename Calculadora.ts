@@ -1,4 +1,4 @@
-// Función para sumar
+// Función para sumar 
 function sumar(a: number, b: number): number {
     return a + b;
 }
@@ -38,8 +38,8 @@ function calculadora(a: number, b: number, operador: string): number | string {
 }
 
 // Ejemplo de uso
-const num1 = 10;
-const num2 = 5;
+const num1 = 100;
+const num2 = 534;
 
 console.log("Suma:", calculadora(num1, num2, "+")); // Resultado: 15
 console.log("Resta:", calculadora(num1, num2, "-")); // Resultado: 5
