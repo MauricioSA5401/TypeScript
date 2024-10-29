@@ -21,7 +21,7 @@ function pixelateImage(img, pixelSize) {
     if (imageData && ctx) {
         for (var y = 0; y < imageData.height; y += pixelSize) {
             for (var x = 0; x < imageData.width; x += pixelSize) {
-                // Obtener el color promedio del bloque
+                // Obtener el color promedio
                 var red = imageData.data[((y * imageData.width + x) * 4)];
                 var green = imageData.data[((y * imageData.width + x) * 4) + 1];
                 var blue = imageData.data[((y * imageData.width + x) * 4) + 2];
