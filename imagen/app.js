@@ -33,7 +33,7 @@ function pixelateImage(img, pixelSize) {
         }
     }
 }
-// Cargar y pixelar la imagen desde la ruta especificada
+// Cargar y pixelar la imagen desde la ruta seleccionada
 loadImage("link.png").then(function (img) {
     pixelateImage(img, pixelSize);
 }).catch(function (error) {
