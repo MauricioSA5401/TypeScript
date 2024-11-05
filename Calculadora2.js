@@ -6,7 +6,7 @@ var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-// Función para sumar
+// Función sumar
 function sumar(a, b) {
     return a + b;
 }
