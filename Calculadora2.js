@@ -10,7 +10,7 @@ var rl = readline.createInterface({
 function sumar(a, b) {
     return a + b;
 }
-// Función para restar
+// Función restar
 function restar(a, b) {
     return a - b;
 }
